@@ -1,0 +1,28 @@
+# LSNPC label-correction dependencies
+
+# HF ecosystem
+accelerate>=0.25.0
+transformers>=4.36.0
+sentence-transformers>=2.2.0
+
+# Core ML
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+scipy>=1.10.0
+
+# Data
+pandas>=2.0.0
+pyarrow>=24.0.0
+deeplake>=3.9.0  # only for scripts/dl_animal10n.py
+
+# Data handling
+Pillow>=10.0.0
+
+# Misc
+tqdm>=4.65.0
+ujson>=5.10.0
+
+# Tests
+pytest>=7.0.0
