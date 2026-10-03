@@ -1,0 +1,17 @@
+# Local datasets, model weights, and generated artifacts
+data/
+results/
+local_models/
+models/all-mpnet-base-v2/
+models/bert-base-uncased/
+models/roformer/
+*.pt
+*.pth
+*.ckpt
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+.env
+.DS_Store
